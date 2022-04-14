@@ -67,7 +67,7 @@ code {
 
 @media only screen and (min-width: 320px) and (max-width: 500px) {
   .user-name {
-    margin-left: -3rem;
+    margin-left: -4.5rem;
   }
   .image-card-comments {
     margin-left: -5rem;

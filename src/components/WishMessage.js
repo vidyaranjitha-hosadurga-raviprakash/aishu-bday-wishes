@@ -2,7 +2,7 @@ import React from "react";
 import Typist from "react-typist";
 
 function WishMessage(props) {
-  const { msg, delay } = props;
+  const { msg } = props;
   return (
     <>
       <Typist>

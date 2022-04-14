@@ -3,7 +3,6 @@ import dp from "../static/images/dp.jpg";
 import aishSolo from "../static/images/aish_solo.jpg";
 import withAish from "../static/images/with_aish.JPG";
 import WishMessage from "./WishMessage";
-import Typist from "react-typist";
 
 const happyWishMsg = [
   "H",
@@ -30,12 +29,20 @@ export default function ImageCard() {
         <div className="content">
           <span className="user-name">Aishwarya_achar</span>
           <div className="right floated meta">Rani Since 2007</div>
-          <img className="left floated ui avatar image" src={dp}></img>
+          <img
+            className="left floated ui avatar image"
+            src={dp}
+            alt="display-one"
+          ></img>
         </div>
 
         <div className="ui slide masked reveal image img-post">
-          <img src={withAish} class="visible content aish-img" />
-          <img src={aishSolo} class="hidden content" />
+          <img
+            src={withAish}
+            class="visible content aish-img"
+            alt="one-along-aish"
+          />
+          <img src={aishSolo} class="hidden content" alt="aish-solo" />
         </div>
 
         <div className="content">

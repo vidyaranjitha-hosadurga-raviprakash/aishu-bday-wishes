@@ -76,4 +76,8 @@ code {
   .image-card {
     margin-top: 4rem;
   }
+  .wish-msg {
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
 }

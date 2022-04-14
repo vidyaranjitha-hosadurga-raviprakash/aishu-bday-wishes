@@ -1,13 +1,79 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.image-card {
+  display: block;
+  margin: auto;
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.ui.card {
+  display: block;
+  margin: auto;
+  width: 23rem;
+  height: 13rem;
+}
+.heart {
+  color: red;
+}
+
+.content {
+  height: 3rem;
+  border-right: 0.1rem solid grey !important;
+  border-left: 0.1rem solid grey !important;
+}
+.avatar {
+  size: 1rem;
+}
+
+.image-card-comments {
+  margin-left: -7rem;
+}
+
+.wish-msg {
+  display: flexbox;
+  flex-direction: row;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-right: 0.1rem solid grey !important;
+  border-left: 0.1rem solid grey !important;
+}
+.Typist {
+  display: inline-block;
+  margin-left: 0.8rem;
+}
+
+.user-name {
+  margin-left: -5rem;
+}
+
+.extra {
+  border: 0.1rem solid grey !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .user-name {
+    margin-left: -3rem;
+  }
+  .image-card-comments {
+    margin-left: -5rem;
+  }
+
+  .image-card {
+    margin-top: 4rem;
+  }
 }

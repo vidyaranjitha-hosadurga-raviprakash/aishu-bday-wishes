@@ -9,3 +9,4 @@ Resources ultilised in developing #digitalBdayCard includes :
 1. [React Js](https://reactjs.org/)
 2. [Google Fonts](https://fonts.google.com/)
 3. [Semantic UI](https://semantic-ui.com/)
+4. **npm package** - [react-typist](https://www.npmjs.com/package/react-typist)
